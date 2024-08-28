@@ -1,0 +1,47 @@
+:root {
+    --primary-color: #6c5ce7;
+    --secondary-color: #00cec9;
+    --accent-color: #fd79a8;
+    --background-color: #f9f9f9;
+    --text-color: #2d3436;
+    --error-color: #d63031;
+    --success-color: #00b894;
+    --shadow-color: rgba(108, 92, 231, 0.1);
+    --input-bg: #ffffff;
+    --low-priority: #27ae60;
+    --medium-priority: #f39c12;
+    --high-priority: #e74c3c;
+  }
+  
+  .custom-form {
+    background: var(--background-color);
+    border-radius: 8px;
+    padding: 2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .custom-form h4 {
+    color: var(--primary-color);
+    font-size: 1.5rem;
+  }
+  
+  .custom-form .form-control {
+    border-radius: 0.375rem;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.16);
+  }
+  
+  .custom-form .btn-primary.custom-button {
+    background-color: black;
+    border: none;
+    color: #ffffff;
+  }
+  
+  .custom-form .btn-primary.custom-button:hover {
+    background-color: darken(var(--primary-color), 10%);
+  }
+  
+  .custom-form .btn-primary.custom-button[disabled] {
+    background-color: #0a0009;
+    cursor: not-allowed;
+  }
+  
